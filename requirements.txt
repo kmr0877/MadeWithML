@@ -12,4 +12,6 @@ six==1.11.0
 sklearn==0.0
 torch==1.4.0
 tqdm==4.43.0
-urllib3==1.25.6
+urllib3==1.25.9
+notebook>=6.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
